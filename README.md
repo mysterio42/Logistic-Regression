@@ -10,15 +10,11 @@ python run.py
 
 ```
 
-![Figure_0.png](figures/Figure_0.png)  ![Figure_1.png](figures/Figure_1.png)
 
-![Figure_2.png](figures/Figure_2.png) ![Figure_3.png](figures/Figure_3.png)
-
-![Figure_4.png](figures/Figure_4.png) ![Figure_5.png](figures/Figure_5.png)
-
-![Figure_6.png](figures/Figure_6.png) ![Figure_7.png](figures/Figure_7.png)
-
-![Figure_8.png](figures/Figure_8.png) ![Figure_9.png](figures/Figure_9.png)
-
+<img src="figures/Figure_0.png" style="max-width:50%"/> <img src="figures/Figure_1.png" style="max-width:50%"/> <br>
+<img src="figures/Figure_2.png" style="max-width:50%"/> <img src="figures/Figure_3.png" style="max-width:50%"/> <br>
+<img src="figures/Figure_4.png" style="max-width:50%"/> <img src="figures/Figure_5.png" style="max-width:50%"/> <br>
+<img src="figures/Figure_6.png" style="max-width:50%"/> <img src="figures/Figure_7.png" style="max-width:50%"/> <br>
+<img src="figures/Figure_8.png" style="max-width:50%"/> <img src="figures/Figure_9.png" style="max-width:50%"/> 
 
 
