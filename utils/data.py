@@ -8,6 +8,6 @@ data_size = len(train_ds)
 
 
 def loaders(batch_size):
-    train_ds_loader = DataLoader(dataset=train_ds, batch_size=batch_size, shuffle=False)
+    train_ds_loader = DataLoader(dataset=train_ds, batch_size=batch_size, shuffle=True)
     test_ds_loader = DataLoader(dataset=test_ds, batch_size=batch_size, shuffle=False)
     return train_ds_loader, test_ds_loader
