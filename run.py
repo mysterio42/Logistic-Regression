@@ -10,14 +10,24 @@ torch.manual_seed(1)
 
 
 def parse_args():
+    def str2bool(v):
+        if isinstance(v, bool):
+            return v
+        if v.lower() in ('yes', 'true', 't', 'y', '1'):
+            return True
+        elif v.lower() in ('no', 'false', 'f', 'n', '0'):
+            return False
+        else:
+            raise argparse.ArgumentTypeError('Boolean value expected')
+
     parser = argparse.ArgumentParser()
-    parser.add_argument('--batch', type=int,default=100,
+    parser.add_argument('--batch', type=int, default=100,
                         help='Training  Batch size  default: 100')
     parser.add_argument('--iters', type=int, default=3000,
                         help='Number of training iterations  default: 3000')
-    parser.add_argument('--lr', type=float,default=0.001,
-                        help='Model learning rate  default: 0.001' )
-    parser.add_argument('--load', type=bool,default=True,
+    parser.add_argument('--lr', type=float, default=0.001,
+                        help='Model learning rate  default: 0.001')
+    parser.add_argument('--load', type=str2bool, default=True,
                         help='True: Load trained model  False: Train model default: True')
     parser.print_help()
     return parser.parse_args()
